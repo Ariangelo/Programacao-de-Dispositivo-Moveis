@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multiplicador</string>
+    <string name="mensagem">Olá Mundo novo.</string>
+    <string name="labelMultiplicador1">Primeiro número</string>
+    <string name="labelMultiplicador2">Segundo número</string>
+    <string name="labelBotaoMultiplicar">Multiplica os dois números</string>
+</resources>
