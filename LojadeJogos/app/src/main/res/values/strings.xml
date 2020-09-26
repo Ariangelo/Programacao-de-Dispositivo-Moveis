@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Loja de Jogos</string>
+    <string name="mensagem">Escolha o jogo desejado</string>
+    <string name="fifa_soccer">Fifa Soccer - R$ 159,90</string>
+    <string name="motor_storm">Motor Storm - R$ 99,90</string>
+    <string name="god_of_war">God of War - R$ 259,90</string>
+    <string name="total">Total = R$ 0,00</string>
+    <string name="boleto">Boleto (10% desconto)</string>
+    <string name="visa">Visa (5% desconto)</string>
+    <string name="mastercard">MasterCard</string>
+</resources>

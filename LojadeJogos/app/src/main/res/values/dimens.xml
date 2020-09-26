@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="distanciaElementos">8dp</dimen>
+    <dimen name="margemSuperiorPrincipal">32dp</dimen>
+    <dimen name="margemEsquerdaPrincipal">24dp</dimen>
+    <dimen name="margemDireitaPrincipal">24dp</dimen>
+    <dimen name="margemInferiorPrincipal">32dp</dimen>
+</resources>
