@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Loja de Carnes</string>
+    <string name="tipoCarne">Escolha o tipo da carne</string>
+    <string name="peso">Informe o peso</string>
+    <string name="labelBotao">Calcule o valor</string>
+    <string-array name="tipoCarne">
+        <item>Frango</item>
+        <item>Picanha</item>
+        <item>Costela</item>
+        <item>Porco</item>
+    </string-array>
+</resources>
