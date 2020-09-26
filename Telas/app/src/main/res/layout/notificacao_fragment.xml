@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NotificacaoFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginLeft="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginTop="@dimen/margemSuperiorPrincipal"
+        android:layout_marginEnd="@dimen/margemDireitaPrincipal"
+        android:layout_marginRight="@dimen/margemDireitaPrincipal"
+        android:text="@string/mensagem"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginLeft="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginTop="@dimen/distanciaElementos"
+        android:layout_marginEnd="@dimen/margemDireitaPrincipal"
+        android:layout_marginRight="@dimen/margemDireitaPrincipal"
+        android:text="@string/fifa_soccer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginLeft="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginTop="@dimen/distanciaElementos"
+        android:layout_marginEnd="@dimen/margemDireitaPrincipal"
+        android:layout_marginRight="@dimen/margemDireitaPrincipal"
+        android:text="@string/motor_storm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginLeft="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginTop="@dimen/distanciaElementos"
+        android:layout_marginEnd="@dimen/margemDireitaPrincipal"
+        android:layout_marginRight="@dimen/margemDireitaPrincipal"
+        android:text="@string/god_of_war"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <TextView
+        android:id="@+id/labelTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/margemDireitaPrincipal"
+        android:layout_marginRight="@dimen/margemDireitaPrincipal"
+        android:text="@string/total"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginLeft="@dimen/margemEsquerdaPrincipal"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/margemDireitaPrincipal"
+        android:layout_marginRight="@dimen/margemDireitaPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelTotal">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/boleto"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/visa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mastercard"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

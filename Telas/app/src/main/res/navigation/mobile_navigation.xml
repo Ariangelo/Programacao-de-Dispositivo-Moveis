@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="br.com.atividade.telas.ui.InicioFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/inicio_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="br.com.atividade.telas.ui.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/dashboard_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_notificacao"
+        android:name="br.com.atividade.telas.ui.NotificacaoFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/notificacao_fragment" />
+</navigation>

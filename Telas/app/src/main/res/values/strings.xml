@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Telas</string>
+    <string name="title_home">Multiplica</string>
+    <string name="title_dashboard">Loja de carnes</string>
+    <string name="title_notifications">Loja de jogos</string>
+
+    <string name="mensagemInicial">Estou no Home</string>
+    <string name="labelMultiplicador1">Primeiro número</string>
+    <string name="labelMultiplicador2">Segundo número</string>
+    <string name="labelBotaoMultiplicar">Multiplica os dois números</string>
+
+    <string name="mensagemDashboard">Estou no Dashboard</string>
+    <string name="tipoCarne">Escolha o tipo da carne</string>
+    <string name="peso">Informe o peso</string>
+    <string name="labelBotao">Calcule o valor</string>
+    <string-array name="tipoCarne">
+        <item>Frango</item>
+        <item>Picanha</item>
+        <item>Costela</item>
+        <item>Porco</item>
+    </string-array>
+
+    <string name="mensagemNotificacao">Estou nas notificações</string>
+    <string name="mensagem">Escolha o jogo desejado</string>
+    <string name="fifa_soccer">Fifa Soccer - R$ 159,90</string>
+    <string name="motor_storm">Motor Storm - R$ 99,90</string>
+    <string name="god_of_war">God of War - R$ 259,90</string>
+    <string name="total">Total = R$ 0,00</string>
+    <string name="boleto">Boleto (10% desconto)</string>
+    <string name="visa">Visa (5% desconto)</string>
+    <string name="mastercard">MasterCard</string>
+
+</resources>
