@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Programa imagens</string>
+    <string name="descritor">Esta imagem</string>
+    <string name="textoBtnPrimeiro">Primeira imagem</string>
+    <string name="textoBtnSegundo">Segunda imagem</string>
+</resources>
